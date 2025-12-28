@@ -8,6 +8,7 @@ export interface Service {
   image: string;
   metaTitle: string;
   metaDescription: string;
+  faqs?: FAQ[];
 }
 
 export interface Testimonial {

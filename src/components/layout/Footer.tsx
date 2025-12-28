@@ -113,6 +113,12 @@ export function Footer() {
           </p>
           <div className="flex items-center gap-6">
             <Link
+              href="/faq"
+              className="py-2 text-neutral-400 hover:text-primary-500 transition-colors text-sm"
+            >
+              FAQ
+            </Link>
+            <Link
               href="/privacy"
               className="py-2 text-neutral-400 hover:text-primary-500 transition-colors text-sm"
             >

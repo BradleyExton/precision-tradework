@@ -1,9 +1,8 @@
 import { Metadata } from "next";
 import { Phone, Mail, MapPin, Clock } from "lucide-react";
-import { Container, Card, Accordion } from "@/components/ui";
+import { Container, Card } from "@/components/ui";
 import { ConsultationForm } from "@/components/forms/ConsultationForm";
 import { LocationMap } from "@/components/contact/LocationMap";
-import { faqs } from "@/lib/faqs";
 
 export const metadata: Metadata = {
   title: "Contact Us",
@@ -111,17 +110,6 @@ export default function ContactPage() {
               <LocationMap />
             </div>
           </div>
-        </Container>
-      </section>
-
-      {/* FAQ */}
-      <section className="py-12 md:py-16 bg-dark-950">
-        <Container size="narrow">
-          <h2 className="text-2xl sm:text-3xl font-bold text-neutral-100 text-center mb-8 md:mb-12">
-            Frequently Asked Questions
-          </h2>
-
-          <Accordion items={faqs} />
         </Container>
       </section>
     </>

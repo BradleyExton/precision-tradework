@@ -12,7 +12,7 @@ import {
   CheckCircle,
   Phone,
 } from "lucide-react";
-import { Container, Button, Card, SectionHeading, Breadcrumbs } from "@/components/ui";
+import { Container, Button, Card, SectionHeading, Breadcrumbs, Accordion } from "@/components/ui";
 import { services, getServiceBySlug, getAllServiceSlugs } from "@/lib/services";
 
 const iconMap: Record<string, React.ComponentType<{ className?: string }>> = {
@@ -242,8 +242,21 @@ export default async function ServicePage({
         </Container>
       </section>
 
+      {/* FAQ */}
+      {service.faqs && service.faqs.length > 0 && (
+        <section className="py-12 md:py-16 bg-dark-900">
+          <Container size="narrow">
+            <SectionHeading
+              eyebrow="Common Questions"
+              title={`${service.title} FAQs`}
+            />
+            <Accordion items={service.faqs} />
+          </Container>
+        </section>
+      )}
+
       {/* Other Services */}
-      <section className="py-12 md:py-16 bg-dark-900">
+      <section className="py-12 md:py-16 bg-dark-950">
         <Container>
           <SectionHeading
             eyebrow="More Services"
