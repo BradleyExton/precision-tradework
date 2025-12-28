@@ -7,6 +7,19 @@ export const metadata: Metadata = {
   title: "Frequently Asked Questions",
   description:
     "Find answers to common questions about our renovation and finishing services in Barrie, Simcoe County and Muskoka. Learn about our process, pricing, and service areas.",
+  openGraph: {
+    title: "FAQ | Precision Tradework",
+    description:
+      "Find answers to common questions about our renovation and finishing services in Barrie, Simcoe County and Muskoka.",
+    images: ["/og-image.png"],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "FAQ | Precision Tradework",
+    description:
+      "Find answers to common questions about our renovation and finishing services in Barrie, Simcoe County and Muskoka.",
+    images: ["/og-image.png"],
+  },
 };
 
 export default function FAQPage() {

@@ -8,6 +8,19 @@ export const metadata: Metadata = {
   title: "About Us",
   description:
     "Learn about Precision Tradework - professional renovation and finishing services in Barrie, Simcoe County and Muskoka. Quality craftsmanship you can trust.",
+  openGraph: {
+    title: "About Us | Precision Tradework",
+    description:
+      "Learn about Precision Tradework - professional renovation and finishing services in Barrie, Simcoe County and Muskoka. Quality craftsmanship you can trust.",
+    images: ["/og-image.png"],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "About Us | Precision Tradework",
+    description:
+      "Learn about Precision Tradework - professional renovation and finishing services in Barrie, Simcoe County and Muskoka.",
+    images: ["/og-image.png"],
+  },
 };
 
 const values = [

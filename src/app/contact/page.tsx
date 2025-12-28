@@ -8,6 +8,19 @@ export const metadata: Metadata = {
   title: "Contact Us",
   description:
     "Request a consultation for your renovation project in Barrie, Simcoe County or Muskoka. Contact Precision Tradework today for a free estimate.",
+  openGraph: {
+    title: "Contact Us | Precision Tradework",
+    description:
+      "Request a consultation for your renovation project in Barrie, Simcoe County or Muskoka. Contact Precision Tradework today for a free estimate.",
+    images: ["/og-image.png"],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Contact Us | Precision Tradework",
+    description:
+      "Request a consultation for your renovation project in Barrie, Simcoe County or Muskoka.",
+    images: ["/og-image.png"],
+  },
 };
 
 export default function ContactPage() {

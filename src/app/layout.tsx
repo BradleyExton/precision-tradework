@@ -42,9 +42,9 @@ export const metadata: Metadata = {
       "Professional renovation and finishing services in Barrie, Simcoe County and Muskoka.",
     images: [
       {
-        url: "/og-image.jpg",
-        width: 1200,
-        height: 630,
+        url: "/og-image.png",
+        width: 800,
+        height: 533,
         alt: "Precision Tradework",
       },
     ],
@@ -54,7 +54,7 @@ export const metadata: Metadata = {
     title: "Precision Tradework | Contractor in Barrie & Simcoe County",
     description:
       "Professional renovation and finishing services in Barrie, Simcoe County and Muskoka.",
-    images: ["/og-image.jpg"],
+    images: ["/og-image.png"],
   },
   robots: {
     index: true,
