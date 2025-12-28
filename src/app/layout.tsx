@@ -43,8 +43,8 @@ export const metadata: Metadata = {
     images: [
       {
         url: "/og-image.png",
-        width: 800,
-        height: 533,
+        width: 1200,
+        height: 630,
         alt: "Precision Tradework",
       },
     ],
